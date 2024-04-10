@@ -43,5 +43,4 @@ const pizzaData = [
   },
 ];
 
-// err remove
-console.log(pizzaData);
+export default pizzaData;
