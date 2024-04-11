@@ -42,8 +42,6 @@ function Menu() {
 }
 
 function Pizza(props) {
-  // console.log(props);
-
   if (props.pizzaobj.soldOut) return null;
 
   return (
@@ -95,4 +93,3 @@ function Order(props) {
     </div>
   );
 }
-console.log("git pull");
