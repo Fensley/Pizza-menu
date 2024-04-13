@@ -12,7 +12,7 @@ export default function App() {
   function Header() {
     return (
       <header className="header">
-        <h1> Fast React pizza co.</h1>
+        <h1>Fast React pizza co.</h1>
       </header>
     );
   }
@@ -74,7 +74,7 @@ export default function App() {
     return (
       <footer>
         {" "}
-        {isOpen ? (
+        {isOpen ? ( 
           <Order closeHours={closeHours} />
         ) : (
           <p>
